@@ -1,3 +1,4 @@
+// 参考 https://thoamsy.vercel.app/solve-fresh-of-loading/
 const timeout = ms =>
   new Promise((_, reject) =>
     setTimeout(() => reject(Symbol.for('timeout')), ms)
